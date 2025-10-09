@@ -30,15 +30,32 @@ const Hero = () => {
                 Get In Touch
               </a>
             </Button>
-            <Button size="lg" variant="outline" className="gap-2 border-primary/50 hover:border-primary">
-              <Download className="w-5 h-5" />
-              Download CV
-            </Button>
+            
+            <Button
+  size="lg"
+  variant="outline"
+  className="gap-2 border-primary/50 hover:border-primary"
+  asChild
+>
+  <a
+    href="https://drive.google.com/uc?export=download&id=1aqoVVShfeWHPIGXhtorAYhF2YlxI9ds5"
+    download
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2"
+  >
+    <Download className="w-5 h-5" />
+    Download CV
+  </a>
+</Button>
+
+
+
           </div>
           
           <div className="flex gap-6 justify-center pt-8">
             <a 
-              href="https://github.com" 
+              href="https://github.com/TharinduDananjaya" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -46,19 +63,20 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/tharindudhananjayaherath/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Linkedin className="w-6 h-6" />
             </a>
-            <a 
-              href="mailto:your.email@example.com"
-              className="text-muted-foreground hover:text-primary transition-colors"
-            >
-              <Mail className="w-6 h-6" />
-            </a>
+           <a 
+  href="mailto:htharinduherath@gmail.com"
+  className="text-muted-foreground hover:text-primary transition-colors"
+>
+  <Mail className="w-6 h-6" />
+</a>
+
           </div>
         </div>
       </div>

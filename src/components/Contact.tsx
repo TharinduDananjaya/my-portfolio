@@ -22,18 +22,18 @@ const Contact = () => {
           <div className="flex flex-col items-center gap-4 pt-4">
             <Button size="lg" className="gap-2 shadow-lg hover:shadow-primary/50 transition-all">
               <Mail className="w-5 h-5" />
-              <a href="mailto:your.email@example.com">Send Me an Email</a>
+              <a href="mailto:htharinduherath@gmail.com">Send Me an Email</a>
             </Button>
             
             <div className="flex items-center gap-2 text-muted-foreground">
               <MapPin className="w-4 h-4" />
-              <span>Moratuwa, Sri Lanka</span>
+              <span>Kandy, Sri Lanka</span>
             </div>
           </div>
           
           <div className="flex gap-6 justify-center pt-8 border-t border-primary/20">
             <a 
-              href="https://github.com" 
+              href="https://github.com/TharinduDananjaya" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
@@ -42,7 +42,7 @@ const Contact = () => {
               <span className="text-sm">GitHub</span>
             </a>
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/tharindudhananjayaherath/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors"
