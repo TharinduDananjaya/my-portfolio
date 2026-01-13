@@ -54,7 +54,7 @@ const Contact = () => {
         </Card>
         
         <div className="text-center mt-12 text-muted-foreground text-sm">
-          <p>© 2025 Tharindu Herath. All rights reserved.</p>
+          <p>© 2026 Tharindu Herath. All rights reserved.</p>
         </div>
       </div>
     </section>
